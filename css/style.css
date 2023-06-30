@@ -1,0 +1,238 @@
+.slider h3,
+.slider h5,
+.clients h3 {
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.parallax-container{
+	height: 250%;
+}
+
+.parallax img {
+	filter: grayscale(1);
+	opacity: 0.5 !important;
+}
+.kontak{
+	padding: 18px;
+}
+
+nav {
+    display: block;
+    background: #fff;
+}
+
+.lunchbox-nav-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+nav ol, nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ol:last-child, ul:last-child, dl:last-child, p:last-child, address:last-child, blockquote:last-child, figure:last-child, pre:last-child, table:last-child {
+    margin-bottom: 0;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.text-b{
+	color: #000000;
+}
+.clients img {
+	max-width: 100px;
+	filter: drop-shadow(1px,1px,1px rgba(0,0,0,0.9));
+}
+
+section, footer{
+	padding: 15px 0;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-a {
+	color: #ffff;
+}
+
+.materialert{
+    position: relative;
+    min-width: 150px;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: all 0.1s linear;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.materialert .material-icons{
+    margin-right: 10px;
+}
+.materialert.success{
+    background-color: #43a047;
+    color: #fff;
+}
+
+.contact .row {
+	display: flex;
+	margin-top: 16px;
+	flex-wrap: wrap;
+}
+.contact .row .map {
+	flex: 1 1 45px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.figure {
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  color: #213555;
+}
+
+.text-center{
+	text-align: center !important;
+}
+
+.button {
+    font-size: 14px;
+    line-height: 1.42858;
+    background-color: #f76b1c;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#F7B449), to(#EB7D23));
+    background-image: linear-gradient(to bottom, #F7B449, #EB7D23);
+    border-radius: 24px;
+    border: 0 solid #fad961;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 32px;
+    position: relative;
+    text-align: center;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+/*halaman Produk*/
+
+.products .row{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 1.5rem;
+    margin-top: 4rem;
+}
+
+.products .product-card {
+    text-align: center;
+    border: 1px solid #eeeaea;
+    border-radius: 1rem;
+    padding: 2rem;
+
+}
+
+.products .products-image {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.products .products-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.products .products-content h3{
+    font-size: 2rem;
+    color: #6e3302;
+}
+
+.products .products-content .desc{
+    font-size: 16px;
+    line-height: 1.42858;
+    color: #767676;
+}
+
+.products-content .price{
+	font-size: 24px;
+	line-height: 1.33334;
+	color: #eb7d23;
+	margin-bottom: 16px;
+}
+
+/* Modal Box */
+/* item-details */
+.modal {
+    display: flex;
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color:  rgba(0, 0, 0, 0.8);
+
+}
+
+.modal-container {
+    position: relative;
+    background-color: #fefefe;
+    color:#3d2a1b;
+    margin: 15% auto;
+    padding: 1.2rem;
+    border: 1px solid #eeeaea;
+    width: 80%;
+}
+
+.modal-container .close-icon {
+    position: absolute;
+    right: 1rem;
+}
+
+.model-content {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.modal-content img{
+    height: 20rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.modal-content p{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-top: 1.2rem;
+}
+
+.modal-content a{
+    display: flex;
+    gap: 1rem;
+    width: 12rem;
+}
